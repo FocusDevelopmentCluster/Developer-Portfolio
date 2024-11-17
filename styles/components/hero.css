@@ -1,0 +1,43 @@
+.hero {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.hero__img{
+    border-radius: 50%; 
+    width: 10rem;
+    height: 10rem;
+    object-fit: cover; 
+}
+
+.hero_subtitle{
+    
+    color: var(--clr-stn300);
+    font-size: var(--size-4xl);
+    line-height: 0.9;
+}
+
+.hero_title{
+    color: var(--clr-ntrl400);
+    text-transform: uppercase;
+    font-size: var(--size-7xl);
+    letter-spacing: -0.05em;
+    line-height: 0.9;
+
+}
+
+.hero_description{
+    max-width: 60ch;
+    font-size: var(--size-2xl-);
+    color: var(--clr-ntrl400);
+}
+
+.hero_btn {
+    text-transform: capitalize;
+    font-size: var(--size-lg);
+}
